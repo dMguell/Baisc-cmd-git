@@ -125,3 +125,16 @@ renomeando uma arquivo:
 git mv (nome do arquivo) (novo nome do arquivo)
 
 PS: tenha certeza se esta dentro da pasta do arquivo
+
+__________________________________________________________________________
+__________________________________________________________________________
+
+Removendo um usuario:
+
+git config --list -> mostra todos os usuarios e emails setados
+git config --global --unset user.email "(email setado)"
+git config --global --unset user.name "(nome setado)"
+
+__________________________________________________________________________
+
+
