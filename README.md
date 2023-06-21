@@ -137,4 +137,12 @@ git config --global --unset user.name "(nome setado)"
 
 __________________________________________________________________________
 
+interligando o git com o github:
 
+git remote add origin (colar o link do http sem aspas nem parenteses)
+git remote -v -> ver se o git está conectado com o github
+git push origin master -> enviar conteudo da pasta para o git
+
+PS: tenha certeza q está nas pasta certa.
+
+__________________________________________________________________________
