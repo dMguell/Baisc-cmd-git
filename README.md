@@ -150,3 +150,9 @@ git push origin master -> enviar conteudo da pasta para o git
 PS: tenha certeza q está nas pasta certa.
 
 __________________________________________________________________________
+
+clonando um arquivo do github para o git local:
+
+git clone (link do github(link do botão CODE))
+
+__________________________________________________________________________
