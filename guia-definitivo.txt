@@ -1,0 +1,18 @@
+Passo a Passo definifivo 3000 de como enviar um arquivo local para o github:
+
+1°) entre na pasta onde estão os arquivos que vc quer enviar.
+
+2°) use o comando "git init" para inicialiazar o repositorio.
+
+3°) conecte o git local com o github usando o comando "git remote add origin (e o link do repositorio no github)".
+PS: boas praticas: deixe o nome do repositorio local e o nome do repositorio no github iguais.
+
+4°) use o comando "git remote -v" para ver se ambos os git estam conectados.
+
+5°) adicione a pasta/arquivo que vc quer enviar para a lista de espera (tem outro nome mas eu esquceci) usando o comando "git add (nome do pasta/arquivo).
+
+6°) use o comando "git commit -m (msg de envio) para commitar os aquivos adicinados.
+
+7°) use o comando "git push origin master" para enviar o arquivo para o github.
+
+8°) em caso de erro, use o comando "git pull origin master" para voltar o arquivo.
