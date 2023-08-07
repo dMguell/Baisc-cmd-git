@@ -1,158 +1,124 @@
-Anotações comandos base cmd:
+<h1 align = center> <ins> Anotações comandos base cmd: </ins> </h1>
 
-incio: windows -> cmd
+<h2 align = center> incio: windows -> cmd </h2>
 
-__________________________________________________________________________
+<h3> <li> acessando uma pasta: </li> </h3>
 
-acessando uma pasta:
+    cd (nome da pasta)
 
-cd (nome da pasta)
+<hr></hr>
 
-__________________________________________________________________________
+<h3> saindo de uma pasta: </h3>
 
-saindo de uma pasta:
+    cd..
 
-cd..
+<hr></hr>
 
-__________________________________________________________________________
+<h3> <li> vendo oq existe dentro de uma pasta: </li> </h3>
 
-vendo oq existe dentro de uma pasta:
+    dir
 
-dir
+    ls
 
-ls
+<hr></hr>
 
-__________________________________________________________________________
+<h3> <li> vendo pastas ocultas: </li> </h3>
 
-vendo pastas ocultas:
+    ls -a
 
-ls -a
+<hr></hr>
 
-__________________________________________________________________________
+<h3> <li> deletando todos os prints do cmd: </li> </h3>
 
-criando uma pasta:
-
-mkdir (nome da pasta)
-
-__________________________________________________________________________
-
-deletando uma pasta:
-
-rmdir (nome da pasta)
-
-__________________________________________________________________________
-
-deletando todos os prints do cmd:
-
-cls
-
-__________________________________________________________________________
-
-printando uma msg:
-
-echo (msg)
-
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-
-criando um usuario no GIT:
-
-git config --global user.email "(email)"
-EX: git config --global user.email "mguellntr@gmail.com"
-
-git config --global user.name "(nome)"
-EX: git config --global user.name "(nome)"
-
-__________________________________________________________________________
-
-iniciando um repositorio no git:
-
-git init
-
-(antes de usar o init, tenha certeza que voce esta na pasta que voce quer estar usando os comandos de locomoção do cmd)
-
-__________________________________________________________________________
-
-adicionando um novo git a um repositorio existente:
-
-git add "(nome do item que voce quer adicionar)"
-EX: git add "bolo-de-cenoura.txt"
-
-PS: git add * pega todos os arquivos dentro da pasta
-
-__________________________________________________________________________
-
-criando um commit:
-
-git commit -m "(msg que será gravada no commit)"
-
-boas praticas: coloque msgs que ditem oq foi adicionado / alterado.
-
-__________________________________________________________________________
-
-vendo o código sha1:
-
-openssal sha1 "(nome do arquivo)"
-
-PS: esteja dentro da pasta do arquivo para usar esse comando.
-
-__________________________________________________________________________
-
-vendo os commits que foram feitos:
-
-git log
-
-__________________________________________________________________________
-
-git status: diz o status de todos os itens dentro daquela pasta
-
-__________________________________________________________________________
-
-voltando um estágio no processo do commit:
-
-"ah, esqueci de uma coisa no meu arquivo"
-
-git restore --stage "(nome do arquivo)"
-
-PS: isso pra antes do commit, pra depois do commit se usa: "(git revert numero_bash)"
-__________________________________________________________________________
-
-renomeando uma arquivo:
-
-git mv (nome do arquivo) (novo nome do arquivo)
-
-PS: tenha certeza se esta dentro da pasta do arquivo
+    cls
 
 __________________________________________________________________________
 __________________________________________________________________________
 
-Removendo um usuario:
+<h1 align = center> <ins> Anotações Comandos Basicos GIT: </ins> </h1>
 
-git config --list -> mostra todos os usuarios e emails setados
+<h3> <li> criando um usuario no GIT: </li> </h3>
 
-git config --global --unset user.email "(email setado)"
+    git config --global user.email "(email)"
+    EX: git config --global user.email "mguellntr@gmail.com"
 
-git config --global --unset user.name "(nome setado)"
+    git config --global user.name "(nome)"
+    EX: git config --global user.name "(nome)"
+
+<hr></hr>
+
+<h3> <li> iniciando um repositorio no git: </li> </h3>
+
+    git init
+
+<i> (antes de usar o init, tenha certeza que voce esta na pasta que voce quer estar usando os comandos de locomoção do cmd) </i>
+
+<hr></hr>
+
+<h3> <li> adicionando um novo git a um repositorio existente: </li> </h3>
+
+    git add "(nome do item que voce quer adicionar)"
+    EX: git add "bolo-de-cenoura.txt"
+
+<i> PS: git add * pega todos os arquivos dentro da pasta </i>
+
+<hr></hr>
+
+<h3> <li> criando um commit: </li> </h3>
+
+    git commit -m "(msg que será gravada no commit)"
+
+<i> boas praticas: coloque msgs que ditem oq foi adicionado / alterado. </i>
+
+<hr></hr>
+
+<h3> <li> vendo os commits que foram feitos: </li> </h3>
+
+    git log
+
+<hr></hr>
+
+<h3> <li> git status: diz o status de todos os itens dentro daquela pasta </li> </h3>
+
+<hr></hr>
+
+<h3> <li> voltando um estágio no processo do commit: </li> </h3>
+
+    "ah, esqueci de uma coisa no meu arquivo"
+
+    git restore --stage "(nome do arquivo)"
+
+<i> PS: isso pra antes do commit, pra depois do commit se usa: "(git revert numero_bash)" </i>
+
+<hr></hr>
+
+<h3> <li> Removendo um usuario: </li> </h3>
+
+    git config --list -> mostra todos os usuarios e emails setados
+
+    git config --global --unset user.email "(email setado)"
+
+    git config --global --unset user.name "(nome setado)"
 
 __________________________________________________________________________
-
-interligando o git com o github:
-
-git remote add origin (colar o link do http sem aspas nem parenteses)
-
-git remote -v -> ver se o git está conectado com o github
-
-git push origin master -> enviar conteudo da pasta para o git
-
-PS: tenha certeza q está nas pasta certa.
-
 __________________________________________________________________________
 
-clonando um arquivo do github para o git local:
+<h1 align = center> <ins> Comando Basicos, Interligando GIT com GIThub: </ins></h1>
 
-git clone (link do github(link do botão CODE))
+<h3> <li> interligando o git com o github: </li> </h3>
 
-__________________________________________________________________________
+    git remote add origin (colar o link do http sem aspas nem parenteses)
+
+    git remote -v -> ver se o git está conectado com o github
+
+    git push origin master -> enviar conteudo da pasta para o git
+
+<i> PS: tenha certeza q está nas pasta certa. </i>
+
+<hr></hr>
+
+<h3> <li> clonando um arquivo do github para o git local: </li> </h3>
+
+    git clone (link do github(link do botão CODE))
+
+<hr></hr>
