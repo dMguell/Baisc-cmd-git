@@ -1,4 +1,4 @@
-<h1 align = center> <ins> Anotações comandos base cmd: </ins> </h1>
+<h1 align = center> <ins> Anotações Comandos Basicos cmd: </ins> </h1>
 
 <h2 align = center> incio: windows -> cmd </h2>
 
@@ -103,7 +103,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 
-<h1 align = center> <ins> Comando Basicos, Interligando GIT com GIThub: </ins></h1>
+<h1 align = center> <ins> Anotações Comandos Basicos, Interligando GIT com GIThub: </ins></h1>
 
 <h3> <li> interligando o git com o github: </li> </h3>
 
