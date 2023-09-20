@@ -122,3 +122,29 @@ __________________________________________________________________________
     git clone (link do github(link do botão CODE))
 
 <hr></hr>
+
+<h3> <li> add um novo branch ao reposirotorio: </li>  </h3>
+
+<i> primeiro tenha certeza de ter criado um branch no repositorio alvo </i>
+
+    git clone "(link do repositorio)" -> clona tudo do repositorio para o pc
+<i> (antes de usar o init, tenha certeza que voce esta na pasta que voce quer estar usando os comandos de locomoção do cmd) </i>
+<i> enter no pasta que foi clonada </i>
+
+    git pull -> para atualizar o repositorio
+
+    git branch -a -> ver todos os branch criados
+    
+<i> (veja se o seu já criado no meio de tudo) </i>
+
+    git checkout (nome do seu branch)
+
+    git status -> para ver se todos o seus arquivos do seu branch estão atualizados
+
+    git add -> em caso de estar faltando algo (se tiver algo vermelho)
+
+<i> para finalizar: </i>
+
+    git commit -m "(msg do commit)"
+
+    git push
